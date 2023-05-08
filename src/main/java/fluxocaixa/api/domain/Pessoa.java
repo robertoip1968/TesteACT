@@ -32,7 +32,7 @@ public class Pessoa implements Serializable {
     @Column(name = "cpf", unique=true)
     private String cpf;
     @JsonSerialize(using = DateSerializer.class)
-    @Column(name = "datanascimento")
+    @Column(name = "datanascimento", nullable=false)
     private Date datanascimento;
     @JsonIgnore
     @OneToMany(mappedBy = "pessoa", fetch = FetchType.EAGER)
