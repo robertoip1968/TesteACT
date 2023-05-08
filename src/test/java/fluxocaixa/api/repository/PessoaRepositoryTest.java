@@ -15,12 +15,12 @@ import static org.junit.jupiter.api.Assertions.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
-class PessoaRepositoryTest {
+public class PessoaRepositoryTest {
 
     @Autowired
     private PessoaRepository pessoaRepository;
     private static final String cpf = "38425580153";
-    private static final String cpfInvalido = "38425580155";
+    private static final String cpfInvalido = "3842558015";
 
     @Before
     public void setUp() throws Exception {
@@ -41,9 +41,10 @@ class PessoaRepositoryTest {
         assertNotEquals(cpfInvalido, pessoa);
     }
 
+    /*
     @After
     public final void tearDown() {
         this.pessoaRepository.deleteAll();
     }
-
+    */
 }

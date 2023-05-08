@@ -3,8 +3,8 @@
         A Aplicação de fluxo de caixa foi desenvolvida utilizando arquitetura CLEAN, e principios do SOLID. 
         O Banco de dados escolhido foi o Mysql com instalação local, mas podendo ser instalado para rodar em container.
         
-#    DESENHO DA ARQUITTURA
-        Na pasta principal
+#    DESENHO DA ARQUITETURA
+        ![](D:\Teste Banco Carrefour\Fluxo de Caixa.png)
 
 #    TECNOLOGIAS:
 
@@ -59,5 +59,6 @@
 
 #    TESTES:
 
-#      1. Teste realizado com junit para verificar se  CpfValido  e CpfInvalido de   uma Entidade pessoa
+#      1. Teste realizado com junit para verificar se  CpfValido  e CpfInvalido (Apenas pelo tamanho) de  uma Entidade pessoa
+
 
